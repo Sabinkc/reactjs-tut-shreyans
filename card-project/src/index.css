@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+hr{
+  margin-bottom: 10px;
+}
+.card .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.parent img{
+  border: 1px solid grey;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  ;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+  height: 30px;
+  width: 60px;
+}
+
+.center{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+
+}
+
+.time{
+  display: flex;
+  margin-top: 5px;
+  gap: 8px;
+}
+.time p{
+
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: lightgrey;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom button{
+color: white;
+background-color: black;
+border-radius: 10px;
+padding: 5px 10px;
+}
